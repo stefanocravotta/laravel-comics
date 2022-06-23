@@ -3,6 +3,6 @@
 
 @section('content')
     <main>
-        <h1 class="text-white">Ciao Home page</h1>
+        <h1 class="text-white">Tv</h1>
     </main>
 @endsection

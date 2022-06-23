@@ -23,3 +23,15 @@ Route::get('/comics', function () {
 
     return view('comics', ['comics' => $data]);
 })->name('comics');
+
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');

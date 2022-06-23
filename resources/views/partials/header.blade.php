@@ -1,14 +1,14 @@
 <header class="container">
     <div class="logo">
-        <a href="{{ route('home') }}"><img src="../img/dc-logo.png" alt=""></a>
+        <a href="{{ route('home') }}"><img src="../img/dc-logo.png" alt="Logo-DC"></a>
     </div>
     <nav class="h-100">
         <ul class="h-100">        
             <li>
-                <a href="#">Characters</a>
+                <a class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}" href="{{ route('characters') }}">Characters</a>
                 <a class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}" href="{{ route('comics') }}">Comics</a>
-                <a href="#">Movies</a>
-                <a href="#">Tv</a>
+                <a class="{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}" href="{{ route('movies') }}">Movies</a>
+                <a class="{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}" href="{{ route('tv') }}">Tv</a>
                 <a href="#">Games</a>
                 <a href="#">Collectibles</a>
                 <a href="#">Videos</a>
