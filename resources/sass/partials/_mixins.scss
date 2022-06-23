@@ -1,0 +1,17 @@
+@mixin space-between() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin header-menu() {
+    @include space-between();
+    align-items: center;
+}
+
+@mixin btn() {
+            padding: 8px 13px;
+            border-radius: 0px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+}

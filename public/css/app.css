@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  min-width: 800px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 80px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  display: flex;
+}
+
+header nav a {
+  padding: 0 10px;
+  color: black;
+  line-height: 110px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+header nav a:hover,
+header nav a.active {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+
+main {
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+main .jumbotron {
+  height: 400px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-position: initial;
+  background-size: cover;
+}
+
+main .card-container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+main .card-container .btn {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  padding: 8px 13px;
+  border-radius: 0px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: #0282f9;
+}
+
+main .btn-load {
+  padding: 8px 13px;
+  border-radius: 0px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: #0282f9;
+  padding: 10px 50px;
+  margin: 15px 0;
+}
+
+main .card {
+  flex-basis: calc(16.6666666667% - 20px);
+  height: 250px;
+  overflow: hidden;
+  margin: 0 10px;
+  color: white;
+  cursor: pointer;
+}
+
+main .card .container-img {
+  height: 70%;
+  overflow: hidden;
+}
+
+main .card h3 {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
