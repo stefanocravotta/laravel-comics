@@ -133,3 +133,33 @@ main .card h3 {
   font-size: 1rem;
 }
 
+#icon-box {
+  height: 120px;
+  background-color: #0282f9;
+}
+
+#icon-box ul {
+  display: flex;
+  align-items: center;
+}
+
+#icon-box ul li {
+  display: flex;
+  align-items: center;
+  flex-basis: 20%;
+  height: 50%;
+  padding: 0 20px;
+}
+
+#icon-box ul img {
+  height: 45px;
+  max-width: 40px;
+}
+
+#icon-box ul a {
+  font-size: 0.9rem;
+  margin-left: 15px;
+  text-transform: uppercase;
+  color: white;
+}
+
